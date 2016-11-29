@@ -11,16 +11,31 @@
     
 
     
-    <meta name="description" content="勤于思而敏于行">
+    <meta name="description" content="写在开头第一次开通博客，看过stormzhang大哥的文章，激起了我想自己写个博客的念头，遂查阅相关资料，总结于此，当学习笔记，也当一个纪念。感乎其不易，写下这篇如何在github平台下使用hexo搭建博客。
+赤脚闯天下
+所需外设PC主机一台，不用其他的了，现在让我们一起赤脚闯天下吧。
+安装Node.js随意在官网https://nodejs.org/en/下查找最新版本安装即可，为博客提供静态">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何在github平台下使用hexo搭建博客">
 <meta property="og:url" content="http://yoursite.com/2016/11/29/如何在github平台下使用hexo搭建博客/index.html">
 <meta property="og:site_name" content="Developer && think deeply">
-<meta property="og:description" content="勤于思而敏于行">
-<meta property="og:updated_time" content="2016-11-29T05:26:51.569Z">
+<meta property="og:description" content="写在开头第一次开通博客，看过stormzhang大哥的文章，激起了我想自己写个博客的念头，遂查阅相关资料，总结于此，当学习笔记，也当一个纪念。感乎其不易，写下这篇如何在github平台下使用hexo搭建博客。
+赤脚闯天下
+所需外设PC主机一台，不用其他的了，现在让我们一起赤脚闯天下吧。
+安装Node.js随意在官网https://nodejs.org/en/下查找最新版本安装即可，为博客提供静态">
+<meta property="og:image" content="http://p1.bpimg.com/1949/082eb7da691e38e6.jpg">
+<meta property="og:image" content="https://github.com/GotoLu/image/tree/master/hexo_server.jpg">
+<meta property="og:image" content="https://github.com/GotoLu/image/tree/master/SSH_key.jpg">
+<meta property="og:image" content="https://github.com/GotoLu/image/tree/master/rsa_pub.jpg">
+<meta property="og:image" content="https://github.com/GotoLu/image/tree/master/ssh_success.jpg">
+<meta property="og:updated_time" content="2016-11-29T12:32:44.968Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何在github平台下使用hexo搭建博客">
-<meta name="twitter:description" content="勤于思而敏于行">
+<meta name="twitter:description" content="写在开头第一次开通博客，看过stormzhang大哥的文章，激起了我想自己写个博客的念头，遂查阅相关资料，总结于此，当学习笔记，也当一个纪念。感乎其不易，写下这篇如何在github平台下使用hexo搭建博客。
+赤脚闯天下
+所需外设PC主机一台，不用其他的了，现在让我们一起赤脚闯天下吧。
+安装Node.js随意在官网https://nodejs.org/en/下查找最新版本安装即可，为博客提供静态">
+<meta name="twitter:image" content="http://p1.bpimg.com/1949/082eb7da691e38e6.jpg">
 
     
     <link rel="alternative" href="/atom.xml" title="Developer &amp;&amp; think deeply" type="application/atom+xml">
@@ -96,15 +111,53 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			
+			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#写在开头"><span class="toc-number">1.</span> <span class="toc-text">写在开头</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#赤脚闯天下"><span class="toc-number">2.</span> <span class="toc-text">赤脚闯天下</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#略有所得"><span class="toc-number">3.</span> <span class="toc-text">略有所得</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#神功大成"><span class="toc-number">4.</span> <span class="toc-text">神功大成</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#结束语"><span class="toc-number"></span> <span class="toc-text">结束语</span></a>
 		
 		</div>
 		
-		  
+		<p><img src="http://p1.bpimg.com/1949/082eb7da691e38e6.jpg" alt="心境"></p>
+<h3 id="写在开头"><a href="#写在开头" class="headerlink" title="写在开头"></a><strong>写在开头</strong></h3><p>第一次开通博客，看过<a href="http://stormzhang.com/" target="_blank" rel="external">stormzhang</a>大哥的文章，激起了我想自己写个博客的念头，遂查阅相关资料，总结于此，当学习笔记，也当一个纪念。感乎其不易，写下这篇如何在github平台下使用hexo搭建博客。</p>
+<h3 id="赤脚闯天下"><a href="#赤脚闯天下" class="headerlink" title="赤脚闯天下"></a><strong>赤脚闯天下</strong></h3><ol>
+<li><strong>所需外设</strong><br>PC主机一台，不用其他的了，现在让我们一起赤脚闯天下吧。</li>
+<li><p><strong>安装Node.js</strong><br>随意在官网<a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a>下查找最新版本安装即可，为博客提供静态页面。</p>
+</li>
+<li><p><strong>安装git</strong><br>安装Windows环境下的Git，下载地址<a href="https://github.com/msysgit/msysgit/releases" target="_blank" rel="external">https://github.com/msysgit/msysgit/releases</a><br>参考百度经验<a href="http://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html" target="_blank" rel="external">http://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html</a></p>
+</li>
+<li><p><strong>拥有一个Github账号</strong><br>申请Github账号，并创建库，为搭建博客的存储所用。库名设置为”github账号.github.com”</p>
+</li>
+<li><p><strong>安装hexo</strong><br>在git中使用命令行npm install -g hexo，<br>正常的npm下载太慢（等了半天一直再转个不停），期间查阅各种网站小道信息，察觉使用淘宝进行npm config set registry “<a href="https://registry.npm.taobao.org" target="_blank" rel="external">https://registry.npm.taobao.org</a>“来设置npm，速度杠杠滴，亲测速度真的很快很快，反正比原始快很多就是啦。</p>
+</li>
+</ol>
+<p><strong>内功修炼初始，拥有了各种神功秘笈，让我们开启下一环节</strong></p>
+<h3 id="略有所得"><a href="#略有所得" class="headerlink" title="略有所得"></a><strong>略有所得</strong></h3><ol>
+<li><p><strong>创建博客文件夹</strong><br>在PC自己习惯的路径下大胆创建存放博客相关信息的文件夹吧，比如我：就是很任性的直接在某盘创建了某个名为myblog的文件夹。想想是不是有点小激动，度过了最枯燥的装载工具环节，终于要证明对上博客这个庞然大物了。<br>其实你如果对命令行熟悉的话直接可以：mkdir myblog。</p>
+</li>
+<li><p><strong>让文件夹焕发光彩</strong><br>文件夹创建好了，该为它套个博客的马甲了。找到你建立文件夹之前路径，点进去吧，空白处右击选择git bash here，在git bash下，cd myblog（也就是进入你之前建立文件夹），在myblog中执行命令hexo init，初始化完成后，再执行hexo generate生成相关文件。最后一步hexo server，不出所料<br><img src="https://github.com/GotoLu/image/tree/master/hexo_server.jpg" alt="OK"><br>这时候你就可以在你的浏览器地址栏输入<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a>。迷人的hexo在向你招手了，到这里你已经成功了一小半了，恭喜恭喜！这个时候对于如何搭建博客，你是不是觉得略有所得呢？</p>
+</li>
+</ol>
+<h3 id="神功大成"><a href="#神功大成" class="headerlink" title="神功大成"></a><strong>神功大成</strong></h3><ol>
+<li><p><strong>配置Github的SSH</strong><br>打开git bash，进入myblog文件夹中。<br>命令ssh-keygen -t rsa -C “你的GitHub注册邮箱”可以在/C/Users/你当前用户名/.ssh中生成两个文件:id_rsa和id_rsa.pub，其中id_rsa是秘钥，而id_rsa.pub是公钥。id_rsa.pub里面的内容就是我们接下来所需要使用的。<br>接下来要在Github中的设置页面左侧找到SSH andGPG keys，然后点击右上角New SSH key。<br><img src="https://github.com/GotoLu/image/tree/master/SSH_key.jpg" alt=""><br>Tile内容不用填写，接下来就该在key中输入id_rsa.pub里面的内容，完事点击左下角绿色小按钮Add SSH key。<br><img src="https://github.com/GotoLu/image/tree/master/rsa_pub.jpg" alt=""><br>其中id_rsa.pub里面的内容可以使用你喜欢的任意一款文本编辑器打开，这里我推荐一款不错的文本编辑器sublime Text，当然，我现在就在sublime中手敲这些文字。<br>rsa.pub添加完成后，使用命令 ssh -T git@github.com 进行测试，如果出现如下效果则表明添加成功。<br><img src="https://github.com/GotoLu/image/tree/master/ssh_success.jpg" alt=""><br>在这之后记得要设置一下用户名和邮箱</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot;你的GitHub用户名&quot;</div><div class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</div></pre></td></tr></table></figure>
+</li>
+<li><p><strong>修改配置文件</strong><br>在myblog下，可以很明显的看到配置文件_config.yml，使用你喜欢的任意文本编辑器打开并编辑它。_config.yml里的最后一段就是需要我们修改的内容，在这之前准备工作要做好，打开你的github，进入你新建的仓库，右面有个绿色的小按钮写着clone看到了没，点它，没错接下来会弹出一个小框，里面有你仓库的链接地址，复制它，一会需要用到。<br>回到刚才的文件中，找到这段代码。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">### Deployment</div><div class="line">## Docs: https://hexo.io/docs/deployment.html</div><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repository: git@github.com:GotoLu/gotolu.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
+<p>当然这是我修改后的,你需要在type后面敲入git，repository后面敲入你在github中创建仓库的地址，也就是前面复制的内容派上用场了，branch分支填写master即可。<br>保存完成后，运行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">// 清楚静态页面</div><div class="line">1. hexo clean</div><div class="line">// 生成静态页面</div><div class="line">2. hexo generate</div><div class="line">// 部署到Github</div><div class="line">3. hexo deploy</div></pre></td></tr></table></figure>
+<p>至此，成功完成博客的搭建，在浏览器中输入<a href="http://你的用户名.github.io" target="_blank" rel="external">http://你的用户名.github.io</a>，如我搭建的地址<a href="http://gotolu.github.io" target="_blank" rel="external">http://gotolu.github.io</a>，祝我们神功大成！</p>
+</li>
+</ol>
+<h1 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a><strong>结束语</strong></h1><p>虽然我按照流程进行一步一步的介绍，但因各种其它因素造成搭建过程出现问题也是在所难免的。有问题可以一起讨论解决。<br>博客搭建出来了是不是很激动啊，这个哈？我不知道，我只知道我写出我的第一篇博客现在相当激动。第一次写作轻喷哦~</p>
+<p><strong>在此感谢jacman提供的漂亮主题！</strong></p>
+  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/github-hexo/">github hexo</a>
+  </div>
 
 </div>
 
@@ -144,7 +197,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- 
+ <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#写在开头"><span class="toc-number">1.</span> <span class="toc-text">写在开头</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#赤脚闯天下"><span class="toc-number">2.</span> <span class="toc-text">赤脚闯天下</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#略有所得"><span class="toc-number">3.</span> <span class="toc-text">略有所得</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#神功大成"><span class="toc-number">4.</span> <span class="toc-text">神功大成</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#结束语"><span class="toc-number"></span> <span class="toc-text">结束语</span></a>
  
   </div>
 
@@ -158,6 +211,17 @@
   
 
   
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/github-hexo/" title="github hexo">github hexo<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
 
   <div class="linkslist">
   <p class="asidetitle">友情链接</p>
