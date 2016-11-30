@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-30T14:38:35.304Z</updated>
+  <updated>2016-11-30T14:52:08.644Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/11/30/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/"/>
     <id>http://yoursite.com/2016/11/30/如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）/</id>
     <published>2016-11-30T06:12:09.000Z</published>
-    <updated>2016-11-30T14:38:35.304Z</updated>
+    <updated>2016-11-30T14:52:08.644Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p><strong>版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处<a href="https://gotolu.github.io" target="_blank" rel="external">https://gotolu.github.io</a>！！！</strong></p>
@@ -42,14 +42,14 @@
 <p><strong>上面的信息根据自己的需求设置吧！</strong></p>
 <p><strong>侧边栏挂件设置：</strong><br><img src="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/widgets.jpg?raw=true" alt=""></p>
 <blockquote>
-<pre><code>**widgets:** 
-**- github-card** #github名片
-**- category** #目录
-**- tag** #博文标签
-**- links** #友情链接
-**- douban** #豆瓣
-**- rss** 
-**- weibo** #微博
+<pre><code>** widgets: ** 
+** - github-card ** #github名片
+** - category ** #目录
+** - tag ** #博文标签
+** - links ** #友情链接
+** - douban ** #豆瓣
+** - rss ** 
+** - weibo** #微博
 </code></pre></blockquote>
 <p><strong>jacman提供了以上七个侧栏挂件,如下图：</strong><br><img src="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/widgets_desplay.jpg?raw=true" alt=""></p>
 <p><strong>theme_image和theme_color的设置：</strong><br><img src="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/iamge.png?raw=true" alt=""></p>
