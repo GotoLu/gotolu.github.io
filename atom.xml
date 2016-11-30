@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-30T12:55:38.600Z</updated>
+  <updated>2016-11-30T14:38:35.304Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,13 +20,14 @@
     <link href="http://yoursite.com/2016/11/30/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/"/>
     <id>http://yoursite.com/2016/11/30/如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）/</id>
     <published>2016-11-30T06:12:09.000Z</published>
-    <updated>2016-11-30T12:55:38.600Z</updated>
+    <updated>2016-11-30T14:38:35.304Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p><strong>版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处<a href="https://gotolu.github.io" target="_blank" rel="external">https://gotolu.github.io</a>！！！</strong></p>
 </blockquote>
 <p><img src="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/top_pic.jpg?raw=true" alt=""><br>能看到这篇的小伙伴们，恭喜你，看到你们我也特别高兴！看来通过上篇博文『<a href="https://gotolu.github.io/2016/11/29/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">如何在github平台下使用hexo搭建博客</a>』的不懈努力，你已经拥有了一个充满创意的博客了，现在是不是迫不及待的想要装扮装扮自己的博客呢？毕竟原始主题虽好，可不要贪杯哦~一种主题看久了总会腻，换换口味总会有一种不一样的感觉；或者你压根不喜欢自带原始风的主题，那就更应该换掉了。不管是哪一种点进来总归是没错的。好吧，废话不多说了，让我们进入今天的主题。</p>
-<h3 id="1-改头换面的开始"><a href="#1-改头换面的开始" class="headerlink" title="1. 改头换面的开始"></a><strong>1. 改头换面的开始</strong></h3><p>打开hexo的原始封面迎面扑来的满满都是hexo的气息，虽然画风不错，但这终归不是咱们自己的风格不是。这个时候的我们青春弥漫，积极向上，斗志也很是昂扬的，你们看看下图是不是很容易就能感受这种氛围，虽然只是简简单单几行文字仅此而已。哦？你说感觉不到，那可能是你老了吧，嘿嘿<br><img src="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/site.jpg?raw=true" alt=""></p>
+<h3 id="1-改头换面的开始"><a href="#1-改头换面的开始" class="headerlink" title="1. 改头换面的开始"></a><strong>1. 改头换面的开始</strong></h3><a id="more"></a>
+<p>打开hexo的原始封面迎面扑来的满满都是hexo的气息，虽然画风不错，但这终归不是咱们自己的风格不是。这个时候的我们青春弥漫，积极向上，斗志也很是昂扬的，你们看看下图是不是很容易就能感受这种氛围，虽然只是简简单单几行文字仅此而已。哦？你说感觉不到，那可能是你老了吧，嘿嘿<br><img src="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/site.jpg?raw=true" alt=""></p>
 <p>没错，我们接下来的任务就是按照上图的要求修改内容，让它尽可能的符合我们的风格，满足我们的需求，当然哪方面需求自己斟酌就可以了。<a href="https://gotolu.github.io/2016/11/29/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">上篇</a>中讲到博客的文件夹，现在立马戳进去，看到’_config.yml’了没，赶紧用sublime(没装，好吧，反正sublime也没给广告费，爱用啥用啥)打开他的，开头你就能找到这些个配置项了。</p>
 <blockquote>
 <p><strong>title:</strong> 给你的博客起个霸气十足的外号吧，外强中干的名字吧(现在啥都没有，名字再响亮不也只得外强中干)<br><strong>subtitle:</strong> 子标题来了，怕你对现在起的名字感到不够霸气，所以现在你可以在你的子标题中再次一站风(风)采(骚)了，看看服务多周到啊！<br><strong>description:</strong> 介(吹)绍(嘘)自己的时候到了，不管是个人还是博客，多介绍介绍，让别人对你(博客)多些了解，我猜人家估计对你不感兴趣，对你的博客更感兴趣吧。<br><strong>author:</strong> 你的名字，给自己起个响亮的笔名也是不错的选择，或者之前就有的那就更好啦。<br><strong>language:</strong> 毫无疑问的我选了zh-CN，当然这个随意，对于我这种英语渣渣，还是老实消停选中文为妙。<br><strong>timezone:</strong> 这个…这个..，这个B装不了了，赶紧跑。<a href="">回头</a>：不设置也没关系的，反正我没设置，就是这么任性的说！</p>
@@ -67,7 +68,10 @@
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处&lt;a href=&quot;https://gotolu.github.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://go
+&lt;p&gt;&lt;strong&gt;版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处&lt;a href=&quot;https://gotolu.github.io&quot;&gt;https://gotolu.github.io&lt;/a&gt;！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/top_pic.jpg?raw=true&quot; alt=&quot;&quot;&gt;&lt;br&gt;能看到这篇的小伙伴们，恭喜你，看到你们我也特别高兴！看来通过上篇博文『&lt;a href=&quot;https://gotolu.github.io/2016/11/29/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;如何在github平台下使用hexo搭建博客&lt;/a&gt;』的不懈努力，你已经拥有了一个充满创意的博客了，现在是不是迫不及待的想要装扮装扮自己的博客呢？毕竟原始主题虽好，可不要贪杯哦~一种主题看久了总会腻，换换口味总会有一种不一样的感觉；或者你压根不喜欢自带原始风的主题，那就更应该换掉了。不管是哪一种点进来总归是没错的。好吧，废话不多说了，让我们进入今天的主题。&lt;/p&gt;
+&lt;h3 id=&quot;1-改头换面的开始&quot;&gt;&lt;a href=&quot;#1-改头换面的开始&quot; class=&quot;headerlink&quot; title=&quot;1. 改头换面的开始&quot;&gt;&lt;/a&gt;&lt;strong&gt;1. 改头换面的开始&lt;/strong&gt;&lt;/h3&gt;
     
     </summary>
     
@@ -81,11 +85,12 @@
     <link href="http://yoursite.com/2016/11/29/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2016/11/29/如何在github平台下使用hexo搭建博客/</id>
     <published>2016-11-29T05:26:51.000Z</published>
-    <updated>2016-11-30T11:19:52.480Z</updated>
+    <updated>2016-11-30T14:39:06.520Z</updated>
     
     <content type="html"><![CDATA[<p>&lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处<a href="https://gotolu.github.io" target="_blank" rel="external">https://gotolu.github.io</a>！！！<br><img src="https://github.com/GotoLu/image/blob/master/pic01.jpg?raw=true" alt="心境"></p>
 <h3 id="写在开头"><a href="#写在开头" class="headerlink" title="写在开头"></a><strong>写在开头</strong></h3><p>第一次开通博客，看过<a href="http://stormzhang.com/" target="_blank" rel="external">stormzhang</a>大哥的文章，激起了我想自己写个博客的念头，遂查阅相关资料，总结于此，当学习笔记，也当一个纪念。感乎其不易，写下这篇如何在github平台下使用hexo搭建博客。</p>
-<h3 id="赤脚闯天下"><a href="#赤脚闯天下" class="headerlink" title="赤脚闯天下"></a><strong>赤脚闯天下</strong></h3><ol>
+<h3 id="赤脚闯天下"><a href="#赤脚闯天下" class="headerlink" title="赤脚闯天下"></a><strong>赤脚闯天下</strong></h3><a id="more"></a>
+<ol>
 <li><strong>所需外设</strong><br>PC主机一台，不用其他的了，现在让我们一起赤脚闯天下吧。</li>
 <li><p><strong>安装Node.js</strong><br>随意在官网<a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a>下查找最新版本安装即可，为博客提供静态页面。</p>
 </li>
@@ -124,7 +129,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;&amp;lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处&lt;a href=&quot;https://gotolu.github.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://gotolu.github.io&lt;/
+      &lt;p&gt;&amp;lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处&lt;a href=&quot;https://gotolu.github.io&quot;&gt;https://gotolu.github.io&lt;/a&gt;！！！&lt;br&gt;&lt;img src=&quot;https://github.com/GotoLu/image/blob/master/pic01.jpg?raw=true&quot; alt=&quot;心境&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;写在开头&quot;&gt;&lt;a href=&quot;#写在开头&quot; class=&quot;headerlink&quot; title=&quot;写在开头&quot;&gt;&lt;/a&gt;&lt;strong&gt;写在开头&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;第一次开通博客，看过&lt;a href=&quot;http://stormzhang.com/&quot;&gt;stormzhang&lt;/a&gt;大哥的文章，激起了我想自己写个博客的念头，遂查阅相关资料，总结于此，当学习笔记，也当一个纪念。感乎其不易，写下这篇如何在github平台下使用hexo搭建博客。&lt;/p&gt;
+&lt;h3 id=&quot;赤脚闯天下&quot;&gt;&lt;a href=&quot;#赤脚闯天下&quot; class=&quot;headerlink&quot; title=&quot;赤脚闯天下&quot;&gt;&lt;/a&gt;&lt;strong&gt;赤脚闯天下&lt;/strong&gt;&lt;/h3&gt;
     
     </summary>
     
