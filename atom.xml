@@ -85,15 +85,18 @@
     <link href="http://yoursite.com/2016/11/29/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2016/11/29/如何在github平台下使用hexo搭建博客/</id>
     <published>2016-11-29T05:26:51.000Z</published>
-    <updated>2016-11-30T14:39:06.520Z</updated>
+    <updated>2016-11-30T14:42:03.972Z</updated>
     
-    <content type="html"><![CDATA[<p>&lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处<a href="https://gotolu.github.io" target="_blank" rel="external">https://gotolu.github.io</a>！！！<br><img src="https://github.com/GotoLu/image/blob/master/pic01.jpg?raw=true" alt="心境"></p>
+    <content type="html"><![CDATA[<blockquote>
+<p>版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处<a href="https://gotolu.github.io" target="_blank" rel="external">https://gotolu.github.io</a>！！！<br><img src="https://github.com/GotoLu/image/blob/master/pic01.jpg?raw=true" alt="心境"></p>
 <h3 id="写在开头"><a href="#写在开头" class="headerlink" title="写在开头"></a><strong>写在开头</strong></h3><p>第一次开通博客，看过<a href="http://stormzhang.com/" target="_blank" rel="external">stormzhang</a>大哥的文章，激起了我想自己写个博客的念头，遂查阅相关资料，总结于此，当学习笔记，也当一个纪念。感乎其不易，写下这篇如何在github平台下使用hexo搭建博客。</p>
 <h3 id="赤脚闯天下"><a href="#赤脚闯天下" class="headerlink" title="赤脚闯天下"></a><strong>赤脚闯天下</strong></h3><a id="more"></a>
 <ol>
 <li><strong>所需外设</strong><br>PC主机一台，不用其他的了，现在让我们一起赤脚闯天下吧。</li>
-<li><p><strong>安装Node.js</strong><br>随意在官网<a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a>下查找最新版本安装即可，为博客提供静态页面。</p>
-</li>
+<li><strong>安装Node.js</strong><br>随意在官网<a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a>下查找最新版本安装即可，为博客提供静态页面。</li>
+</ol>
+</blockquote>
+<ol>
 <li><p><strong>安装git</strong><br>安装Windows环境下的Git，下载地址<a href="https://github.com/msysgit/msysgit/releases" target="_blank" rel="external">https://github.com/msysgit/msysgit/releases</a><br>参考百度经验<a href="http://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html" target="_blank" rel="external">http://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html</a></p>
 </li>
 <li><p><strong>拥有一个Github账号</strong><br>申请Github账号，并创建库，为搭建博客的存储所用。库名设置为”github账号.github.com”</p>
@@ -129,7 +132,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;&amp;lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处&lt;a href=&quot;https://gotolu.github.io&quot;&gt;https://gotolu.github.io&lt;/a&gt;！！！&lt;br&gt;&lt;img src=&quot;https://github.com/GotoLu/image/blob/master/pic01.jpg?raw=true&quot; alt=&quot;心境&quot;&gt;&lt;/p&gt;
+      &lt;blockquote&gt;
+&lt;p&gt;版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处&lt;a href=&quot;https://gotolu.github.io&quot;&gt;https://gotolu.github.io&lt;/a&gt;！！！&lt;br&gt;&lt;img src=&quot;https://github.com/GotoLu/image/blob/master/pic01.jpg?raw=true&quot; alt=&quot;心境&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;写在开头&quot;&gt;&lt;a href=&quot;#写在开头&quot; class=&quot;headerlink&quot; title=&quot;写在开头&quot;&gt;&lt;/a&gt;&lt;strong&gt;写在开头&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;第一次开通博客，看过&lt;a href=&quot;http://stormzhang.com/&quot;&gt;stormzhang&lt;/a&gt;大哥的文章，激起了我想自己写个博客的念头，遂查阅相关资料，总结于此，当学习笔记，也当一个纪念。感乎其不易，写下这篇如何在github平台下使用hexo搭建博客。&lt;/p&gt;
 &lt;h3 id=&quot;赤脚闯天下&quot;&gt;&lt;a href=&quot;#赤脚闯天下&quot; class=&quot;headerlink&quot; title=&quot;赤脚闯天下&quot;&gt;&lt;/a&gt;&lt;strong&gt;赤脚闯天下&lt;/strong&gt;&lt;/h3&gt;
     
