@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-29T23:44:09.022Z</updated>
+  <updated>2016-11-30T01:22:26.329Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/11/29/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2016/11/29/如何在github平台下使用hexo搭建博客/</id>
     <published>2016-11-29T05:26:51.000Z</published>
-    <updated>2016-11-29T23:44:09.022Z</updated>
+    <updated>2016-11-30T01:22:26.329Z</updated>
     
     <content type="html"><![CDATA[<p>&lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处<a href="https://gotolu.github.io" target="_blank" rel="external">https://gotolu.github.io</a>！！！<br><img src="https://github.com/GotoLu/image/blob/master/pic01.jpg?raw=true" alt="心境"></p>
 <h3 id="写在开头"><a href="#写在开头" class="headerlink" title="写在开头"></a><strong>写在开头</strong></h3><p>第一次开通博客，看过<a href="http://stormzhang.com/" target="_blank" rel="external">stormzhang</a>大哥的文章，激起了我想自己写个博客的念头，遂查阅相关资料，总结于此，当学习笔记，也当一个纪念。感乎其不易，写下这篇如何在github平台下使用hexo搭建博客。</p>
@@ -32,14 +32,14 @@
 </li>
 <li><p><strong>拥有一个Github账号</strong><br>申请Github账号，并创建库，为搭建博客的存储所用。库名设置为”github账号.github.com”</p>
 </li>
-<li><p><strong>安装hexo</strong><br>在git中使用命令行npm install -g hexo，<br>正常的npm下载太慢（等了半天一直再转个不停），期间查阅各种网站小道信息，察觉使用淘宝进行npm config set registry “<a href="https://registry.npm.taobao.org" target="_blank" rel="external">https://registry.npm.taobao.org</a>“来设置npm，速度杠杠滴，亲测速度真的很快很快，反正比原始快很多就是啦。</p>
+<li><p><strong>安装hexo</strong><br>在git中使用命令行npm install -g hexo，<br>正常的npm下载太慢（等了半天一直再转个不停），期间翻阅各种网站小道信息，发现使用淘宝的镜像下载的速度更快。具体npm config如下配置：<br><code>npm config set registry &quot;[https://registry.npm.taobao.org](https://registry.npm.taobao.org)&quot;</code><br>换镜像后的速度杠杠滴，亲测速度真的很快很快，反正比初始速度快很多就是啦。</p>
 </li>
 </ol>
-<p><strong>内功修炼初始，拥有了各种神功秘笈，让我们开启下一环节</strong></p>
+<p><strong>内功修炼初始，拥有了各种神功秘笈的我们，可以开启下一环节啦</strong></p>
 <h3 id="略有所得"><a href="#略有所得" class="headerlink" title="略有所得"></a><strong>略有所得</strong></h3><ol>
-<li><p><strong>创建博客文件夹</strong><br>在PC自己习惯的路径下大胆创建存放博客相关信息的文件夹吧，比如我：就是很任性的直接在某盘创建了某个名为myblog的文件夹。想想是不是有点小激动，度过了最枯燥的装载工具环节，终于要证明对上博客这个庞然大物了。<br>其实你如果对命令行熟悉的话直接可以：mkdir myblog。</p>
+<li><p><strong>创建博客文件夹</strong><br>在PC自己习惯的路径下大胆创建文件夹，存放搭建博客的相关信息。比如我：就是很任性的直接在某盘创建了某个名为myblog的文件夹。想想是不是有点小激动，度过了最枯燥的装载工具环节，终于要证明对上博客这个庞然大物了。<br>其实你如果对命令行熟悉的话直接可以：mkdir myblog。</p>
 </li>
-<li><p><strong>让文件夹焕发光彩</strong><br>文件夹创建好了，该为它套个博客的马甲了。找到你建立文件夹之前路径，点进去吧，空白处右击选择git bash here，在git bash下，cd myblog（也就是进入你之前建立文件夹），在myblog中执行命令hexo init，初始化完成后，再执行hexo generate生成相关文件。最后一步hexo server，不出所料<br><img src="https://github.com/GotoLu/image/blob/master/hexo_server.jpg?raw=true" alt="OK"><br>这时候你就可以在你的浏览器地址栏输入<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a>。迷人的hexo在向你招手了，到这里你已经成功了一小半了，恭喜恭喜！这个时候对于如何搭建博客，你是不是觉得略有所得呢？</p>
+<li><p><strong>让文件夹焕发光彩</strong><br>文件夹创建好了，该为它套个博客的马甲了。找到你搭建博客的文件夹路径，点进去吧，空白处右击选择git bash here，在git bash下，执行pwd可查看当前路径（也就是进入你之前建立文件夹），在myblog中执行命令hexo init，初始化完成后，再执行hexo generate生成静态页面。最后一步hexo server开启服务，不出所料<br><img src="https://github.com/GotoLu/image/blob/master/hexo_server.jpg?raw=true" alt="OK"><br>这时候你就可以在你的浏览器地址栏输入<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a>。迷人的hexo在向你招手了，到这里你已经成功了一小半了，恭喜恭喜！这个时候对于如何搭建博客，你是不是觉得略有所得呢？</p>
 </li>
 </ol>
 <h3 id="神功大成"><a href="#神功大成" class="headerlink" title="神功大成"></a><strong>神功大成</strong></h3><ol>
