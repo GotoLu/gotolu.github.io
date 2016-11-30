@@ -4,22 +4,34 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Developer &amp;&amp; think deeply</title>
+    <title>如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了） | Developer &amp;&amp; think deeply</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Goto Lu">
     
 
     
-    <meta name="description" content="勤于思而敏于行">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Developer && think deeply">
-<meta property="og:url" content="http://yoursite.com/index.html">
+    <meta name="description" content="&amp;lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处https://gotolu.github.io！！！能看到这篇的小伙伴们，恭喜你，看到你们我也特别高兴！看来通过上篇博文『如何在github平台下使用hexo搭建博客』的不懈努力，你已经拥有了一个充满创意的博客了，现在是不是迫不及待的想要装扮装扮自己的博客呢？毕竟原始主题虽好，可不要贪杯哦~一种主题看久了总">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）">
+<meta property="og:url" content="http://yoursite.com/2016/11/30/如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）/index.html">
 <meta property="og:site_name" content="Developer && think deeply">
-<meta property="og:description" content="勤于思而敏于行">
+<meta property="og:description" content="&amp;lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处https://gotolu.github.io！！！能看到这篇的小伙伴们，恭喜你，看到你们我也特别高兴！看来通过上篇博文『如何在github平台下使用hexo搭建博客』的不懈努力，你已经拥有了一个充满创意的博客了，现在是不是迫不及待的想要装扮装扮自己的博客呢？毕竟原始主题虽好，可不要贪杯哦~一种主题看久了总">
+<meta property="og:image" content="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/top_pic.jpg?raw=true">
+<meta property="og:image" content="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/site.jpg?raw=true">
+<meta property="og:image" content="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/me_title.png?raw=true">
+<meta property="og:image" content="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/theme_name.png?raw=true">
+<meta property="og:image" content="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/menu.jpg?raw=true">
+<meta property="og:image" content="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/widgets.jpg?raw=true">
+<meta property="og:image" content="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/widgets_desplay.jpg?raw=true">
+<meta property="og:image" content="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/iamge.png?raw=true">
+<meta property="og:image" content="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/author.jpg?raw=true">
+<meta property="og:image" content="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/author_desplay.jpg?raw=true">
+<meta property="og:updated_time" content="2016-11-30T11:56:23.230Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Developer && think deeply">
-<meta name="twitter:description" content="勤于思而敏于行">
+<meta name="twitter:title" content="如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）">
+<meta name="twitter:description" content="&amp;lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处https://gotolu.github.io！！！能看到这篇的小伙伴们，恭喜你，看到你们我也特别高兴！看来通过上篇博文『如何在github平台下使用hexo搭建博客』的不懈努力，你已经拥有了一个充满创意的博客了，现在是不是迫不及待的想要装扮装扮自己的博客呢？毕竟原始主题虽好，可不要贪杯哦~一种主题看久了总">
+<meta name="twitter:image" content="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/top_pic.jpg?raw=true">
 <link rel="publisher" href="115824722691633095959">
 
     
@@ -78,12 +90,10 @@
 </div>
     </header>
     <div id="container">
-      <div id="main">
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
   <h1 itemprop="name">
     
       <a href="/2016/11/30/如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）/" title="如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）" itemprop="url">如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）</a>
@@ -97,9 +107,16 @@
     
   </p>
 </header>
-    <div class="article-content">
-        
-        <p>&lt; <strong>版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处<a href="https://gotolu.github.io" target="_blank" rel="external">https://gotolu.github.io</a>！！！</strong><br><img src="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/top_pic.jpg?raw=true" alt=""><br>能看到这篇的小伙伴们，恭喜你，看到你们我也特别高兴！看来通过上篇博文『<a href="https://gotolu.github.io/2016/11/29/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">如何在github平台下使用hexo搭建博客</a>』的不懈努力，你已经拥有了一个充满创意的博客了，现在是不是迫不及待的想要装扮装扮自己的博客呢？毕竟原始主题虽好，可不要贪杯哦~一种主题看久了总会腻，换换口味总会有一种不一样的感觉；或者你压根不喜欢自带原始风的主题，那就更应该换掉了。不管是哪一种点进来总归是没错的。好吧，废话不多说了，让我们进入今天的主题。</p>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-改头换面的开始"><span class="toc-number">1.</span> <span class="toc-text">1. 改头换面的开始</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-恰同学少年，风华正茂"><span class="toc-number">2.</span> <span class="toc-text">2. 恰同学少年，风华正茂</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-修改主题相关，让它丰富多彩"><span class="toc-number">3.</span> <span class="toc-text">3. 修改主题相关，让它丰富多彩</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-总结"><span class="toc-number">4.</span> <span class="toc-text">4. 总结</span></a></li></ol>
+		
+		</div>
+		
+		<p>&lt; <strong>版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处<a href="https://gotolu.github.io" target="_blank" rel="external">https://gotolu.github.io</a>！！！</strong><br><img src="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/top_pic.jpg?raw=true" alt=""><br>能看到这篇的小伙伴们，恭喜你，看到你们我也特别高兴！看来通过上篇博文『<a href="https://gotolu.github.io/2016/11/29/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">如何在github平台下使用hexo搭建博客</a>』的不懈努力，你已经拥有了一个充满创意的博客了，现在是不是迫不及待的想要装扮装扮自己的博客呢？毕竟原始主题虽好，可不要贪杯哦~一种主题看久了总会腻，换换口味总会有一种不一样的感觉；或者你压根不喜欢自带原始风的主题，那就更应该换掉了。不管是哪一种点进来总归是没错的。好吧，废话不多说了，让我们进入今天的主题。</p>
 <h3 id="1-改头换面的开始"><a href="#1-改头换面的开始" class="headerlink" title="1. 改头换面的开始"></a><strong>1. 改头换面的开始</strong></h3><p>打开hexo的原始封面迎面扑来的满满都是hexo的气息，虽然画风不错，但这终归不是咱们自己的风格不是。这个时候的我们青春弥漫，积极向上，斗志也很是昂扬的，你们看看下图是不是很容易就能感受这种氛围，虽然只是简简单单几行文字仅此而已。哦？你说感觉不到，那可能是你老了吧，嘿嘿<br><img src="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/site.jpg?raw=true" alt=""></p>
 <p>没错，我们接下来的任务就是按照上图的要求修改内容，让它尽可能的符合我们的风格，满足我们的需求，当然哪方面需求自己斟酌就可以了。<a href="https://gotolu.github.io/2016/11/29/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">上篇</a>中讲到博客的文件夹，现在立马戳进去，看到’_config.yml’了没，赶紧用sublime(没装，好吧，反正sublime也没给广告费，爱用啥用啥)打开他的，开头你就能找到这些个配置项了。</p>
 <blockquote>
@@ -135,14 +152,9 @@
 <p><strong>以上是个人信息，将在博客下方出现,效果如下：</strong><br><img src="https://github.com/GotoLu/image/blob/master/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%9B%E9%98%B6%EF%BC%88%E8%87%AA%E5%B7%B1%E9%80%89%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%8C%E8%B7%AA%E7%9D%80%E4%B9%9F%E8%A6%81%E6%95%B4%E5%A5%BD%E4%BA%86%EF%BC%89/author_desplay.jpg?raw=true" alt=""></p>
 <h3 id="4-总结"><a href="#4-总结" class="headerlink" title="4. 总结"></a><strong>4. 总结</strong></h3><p>不一样的人，有不同的爱好，希望能帮助到你配置好你自己喜欢的主题。最后：自己选的主题，跪着也要整好了，那毕竟是自己选的。</p>
 <p><strong>在此感谢jacman提供的漂亮主题！</strong></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
+  
+	</div>
+		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
 
@@ -155,127 +167,73 @@
 
 
 
-<script type="text/javascript">
-	var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260896160'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260896160%26online%3D1' type='text/javascript'%3E%3C/script%3E"));
-</script>
-
-<div class="comments-count">
+	<div class="article-share" id="share">
 	
-	  	<span></span>
-		<a href="/2016/11/30/如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）/#comments" class="ds-thread-count comments-count-link" data-thread-key="2016/11/30/如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）/" data-count-type="comments">&nbsp;</a>
+	<div class="share-jiathis">
+	  
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_googleplus"></a>
+	<a class="jiathis_button_douban"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+    var jiathis_config={
+    data_track_clickback:true,
+    sm:"copy,renren,cqq",
+    pic:"",
+    summary:"",
+     ralateuid:{"tsina":"1824827994"},hideMore:false}
+    
+  </script> 
+<script type="text/javascript" src="//v3.jiathis.com/code/jia.js?uid=2120550
+2120550" charset="utf-8"></script>      
+
+	 </div>
 	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2016/11/29/如何在github平台下使用hexo搭建博客/" title="如何在github平台下使用hexo搭建博客" itemprop="url">如何在github平台下使用hexo搭建博客</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="https://plus.google.com/115824722691633095959?rel=author" title="Goto Lu" target="_blank" itemprop="author">Goto Lu</a>
-		
-  <p class="article-time">
-    <time datetime="2016-11-29T05:26:51.000Z" itemprop="datePublished"> 发表于 2016-11-29</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>&lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处<a href="https://gotolu.github.io" target="_blank" rel="external">https://gotolu.github.io</a>！！！<br><img src="https://github.com/GotoLu/image/blob/master/pic01.jpg?raw=true" alt="心境"></p>
-<h3 id="写在开头"><a href="#写在开头" class="headerlink" title="写在开头"></a><strong>写在开头</strong></h3><p>第一次开通博客，看过<a href="http://stormzhang.com/" target="_blank" rel="external">stormzhang</a>大哥的文章，激起了我想自己写个博客的念头，遂查阅相关资料，总结于此，当学习笔记，也当一个纪念。感乎其不易，写下这篇如何在github平台下使用hexo搭建博客。</p>
-<h3 id="赤脚闯天下"><a href="#赤脚闯天下" class="headerlink" title="赤脚闯天下"></a><strong>赤脚闯天下</strong></h3><ol>
-<li><strong>所需外设</strong><br>PC主机一台，不用其他的了，现在让我们一起赤脚闯天下吧。</li>
-<li><p><strong>安装Node.js</strong><br>随意在官网<a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a>下查找最新版本安装即可，为博客提供静态页面。</p>
-</li>
-<li><p><strong>安装git</strong><br>安装Windows环境下的Git，下载地址<a href="https://github.com/msysgit/msysgit/releases" target="_blank" rel="external">https://github.com/msysgit/msysgit/releases</a><br>参考百度经验<a href="http://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html" target="_blank" rel="external">http://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html</a></p>
-</li>
-<li><p><strong>拥有一个Github账号</strong><br>申请Github账号，并创建库，为搭建博客的存储所用。库名设置为”github账号.github.com”</p>
-</li>
-<li><p><strong>安装hexo</strong><br>在git中使用命令行npm install -g hexo，<br>正常的npm下载太慢（等了半天一直再转个不停），期间翻阅各种网站小道信息，发现使用淘宝的镜像下载的速度更快。具体npm config如下配置：<br><code>npm config set registry &quot;https://registry.npm.taobao.org&quot;</code><br>换镜像后的速度杠杠滴，亲测速度真的很快很快，反正比初始速度快很多就是啦。</p>
-</li>
-</ol>
-<p><strong>内功修炼初始，拥有了各种神功秘笈的我们，可以开启下一环节啦</strong></p>
-<h3 id="略有所得"><a href="#略有所得" class="headerlink" title="略有所得"></a><strong>略有所得</strong></h3><ol>
-<li><p><strong>创建博客文件夹</strong><br>在PC自己习惯的路径下大胆创建文件夹，存放搭建博客的相关信息。比如我：就是很任性的直接在某盘创建了某个名为myblog的文件夹。想想是不是有点小激动，度过了最枯燥的装载工具环节，终于要证明对上博客这个庞然大物了。<br>其实你如果对命令行熟悉的话直接可以：mkdir myblog。</p>
-</li>
-<li><p><strong>让文件夹焕发光彩</strong><br>文件夹创建好了，该为它套个博客的马甲了。找到你搭建博客的文件夹路径，点进去吧，空白处右击选择git bash here，在git bash下，执行pwd可查看当前路径（也就是进入你之前建立文件夹），在myblog中执行命令hexo init，初始化完成后，再执行hexo generate生成静态页面。最后一步hexo server开启服务，不出所料<br><img src="https://github.com/GotoLu/image/blob/master/hexo_server.jpg?raw=true" alt="OK"><br>这时候你就可以在你的浏览器地址栏输入<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a>。迷人的hexo在向你招手了，到这里你已经成功了一小半了，恭喜恭喜！这个时候对于如何搭建博客，你是不是觉得略有所得呢？</p>
-</li>
-</ol>
-<h3 id="神功大成"><a href="#神功大成" class="headerlink" title="神功大成"></a><strong>神功大成</strong></h3><ol>
-<li><p><strong>配置Github的SSH</strong><br>打开git bash，进入myblog文件夹中。<br>命令ssh-keygen -t rsa -C “你的GitHub注册邮箱”可以在/C/Users/你当前用户名/.ssh中生成两个文件:id_rsa和id_rsa.pub，其中id_rsa是秘钥，而id_rsa.pub是公钥。id_rsa.pub里面的内容就是我们接下来所需要使用的。<br>接下来要在Github中的设置页面左侧找到SSH andGPG keys，然后点击右上角New SSH key。<br><img src="https://github.com/GotoLu/image/blob/master/SSH_key.jpg?raw=true" alt=""><br>Tile内容不用填写，接下来就该在key中输入id_rsa.pub里面的内容，完事点击左下角绿色小按钮Add SSH key。<br><img src="https://github.com/GotoLu/image/blob/master/rsa_pub.jpg?raw=true" alt=""><br>其中id_rsa.pub里面的内容可以使用你喜欢的任意一款文本编辑器打开，这里我推荐一款不错的文本编辑器sublime Text，当然，我现在就在sublime中手敲这些文字。<br>rsa.pub添加完成后，使用命令 ssh -T git@github.com 进行测试，如果出现如下效果则表明添加成功。<br><img src="https://github.com/GotoLu/image/blob/master/ssh_success.jpg?raw=true" alt=""><br>在这之后记得要设置一下用户名和邮箱</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot;你的GitHub用户名&quot;</div><div class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</div></pre></td></tr></table></figure>
-</li>
-<li><p><strong>修改配置文件</strong><br>在myblog下，可以很明显的看到配置文件_config.yml，使用你喜欢的任意文本编辑器打开并编辑它。_config.yml里的最后一段就是需要我们修改的内容，在这之前准备工作要做好，打开你的github，进入你新建的仓库，右面有个绿色的小按钮写着clone看到了没，点它，没错接下来会弹出一个小框，里面有你仓库的链接地址，复制它，一会需要用到。<br>回到刚才的文件中，找到这段代码。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">### Deployment</div><div class="line">## Docs: https://hexo.io/docs/deployment.html</div><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repository: git@github.com:GotoLu/gotolu.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
-<p>当然这是我修改后的,你需要在type后面敲入git，repository后面敲入你在github中创建仓库的地址，也就是前面复制的内容派上用场了，branch分支填写master即可。</p>
-<h3 id="注意事项：填写内容前记得在前面多敲一个空格’-‘，如type-git！不然会出现意想不到的结果。"><a href="#注意事项：填写内容前记得在前面多敲一个空格’-‘，如type-git！不然会出现意想不到的结果。" class="headerlink" title="注意事项：填写内容前记得在前面多敲一个空格’ ‘，如type: git！不然会出现意想不到的结果。"></a><strong>注意事项：填写内容前记得在前面多敲一个空格’ ‘，如type: git！不然会出现意想不到的结果。</strong></h3><p>保存完成后，运行</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">// 清楚静态页面</div><div class="line">1. hexo clean</div><div class="line">// 生成静态页面</div><div class="line">2. hexo generate</div><div class="line">// 部署到Github</div><div class="line">3. hexo deploy</div></pre></td></tr></table></figure>
-<p>至此，博客的搭建已经完成了，你只需要在浏览器中输入<a href="http://你的用户名.github.io" target="_blank" rel="external">http://你的用户名.github.io</a>就可以看到自己的，如我搭建的地址<a href="http://gotolu.github.io" target="_blank" rel="external">http://gotolu.github.io</a>，我的博客搭建出来了，你们的呢？让我们一起练就绝世神功吧！<br><strong>提供一些小技巧</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git c == git clean</div><div class="line">git g == git generate</div><div class="line">git s == git server</div><div class="line">git d == git deploy</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>上述命令经常会使用到，提供一点技巧，为我们节省一些时间！</p>
-<h1 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a><strong>结束语</strong></h1><p>虽然我按照流程进行一步一步的介绍，但因各种其它因素造成搭建过程出现问题也是在所难免的。有问题可以一起讨论解决。<br>博客搭建出来了是不是很激动啊，这个哈？我不知道，反正我写出我的第一篇博客相当激动。第一次写作轻喷哦~</p>
-<hr>
-<p><strong>在此感谢jacman提供的漂亮主题！</strong></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/github-hexo/">github hexo</a>
-  </div>
-
-</div>
-
-
+	</div>
 
 <script type="text/javascript">
 	var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260896160'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260896160%26online%3D1' type='text/javascript'%3E%3C/script%3E"));
 </script>
 
-<div class="comments-count">
-	
-	  	<span></span>
-		<a href="/2016/11/29/如何在github平台下使用hexo搭建博客/#comments" class="ds-thread-count comments-count-link" data-thread-key="2016/11/29/如何在github平台下使用hexo搭建博客/" data-count-type="comments">&nbsp;</a>
-	
-</div>
-
 </footer>
 
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
 
-    </article>
-
-
-
-
-
-
-
+<div class="next">
+<a href="/2016/11/29/如何在github平台下使用hexo搭建博客/"  title="如何在github平台下使用hexo搭建博客">
+ <strong>下一篇：</strong><br/> 
+ <span>如何在github平台下使用hexo搭建博客
+</span>
+</a>
 </div>
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2016/11/30/如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）/" data-title="如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）" data-url="http://yoursite.com/2016/11/30/如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）/"></div>
+</section>
+
+
+</div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-改头换面的开始"><span class="toc-number">1.</span> <span class="toc-text">1. 改头换面的开始</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-恰同学少年，风华正茂"><span class="toc-number">2.</span> <span class="toc-text">2. 恰同学少年，风华正茂</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-修改主题相关，让它丰富多彩"><span class="toc-number">3.</span> <span class="toc-text">3. 修改主题相关，让它丰富多彩</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-总结"><span class="toc-number">4.</span> <span class="toc-text">4. 总结</span></a></li></ol>
+ 
+  </div>
 
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
@@ -432,14 +390,54 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
 });
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
 
 
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"gotolu"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
 
 
 
@@ -510,4 +508,4 @@ var _hmt = _hmt || [];
 <!-- Tiny_search End -->
 
   </body>
- </html>
+</html>

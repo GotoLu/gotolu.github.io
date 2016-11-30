@@ -28,7 +28,7 @@
 <meta property="og:image" content="https://github.com/GotoLu/image/blob/master/SSH_key.jpg?raw=true">
 <meta property="og:image" content="https://github.com/GotoLu/image/blob/master/rsa_pub.jpg?raw=true">
 <meta property="og:image" content="https://github.com/GotoLu/image/blob/master/ssh_success.jpg?raw=true">
-<meta property="og:updated_time" content="2016-11-30T06:04:21.338Z">
+<meta property="og:updated_time" content="2016-11-30T11:19:52.480Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何在github平台下使用hexo搭建博客">
 <meta name="twitter:description" content="&amp;lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处https://gotolu.github.io！！！
@@ -76,6 +76,10 @@
 					
 						<li><a href="/about">About</a></li>
 					
+						<li><a href="/tools">Tools</a></li>
+					
+						<li><a href="/share">Share</a></li>
+					
 					<li>
  					
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
@@ -112,7 +116,7 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#写在开头"><span class="toc-number">1.</span> <span class="toc-text">写在开头</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#赤脚闯天下"><span class="toc-number">2.</span> <span class="toc-text">赤脚闯天下</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#略有所得"><span class="toc-number">3.</span> <span class="toc-text">略有所得</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#神功大成"><span class="toc-number">4.</span> <span class="toc-text">神功大成</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#结束语"><span class="toc-number"></span> <span class="toc-text">结束语</span></a>
+			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#写在开头"><span class="toc-number">1.</span> <span class="toc-text">写在开头</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#赤脚闯天下"><span class="toc-number">2.</span> <span class="toc-text">赤脚闯天下</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#略有所得"><span class="toc-number">3.</span> <span class="toc-text">略有所得</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#神功大成"><span class="toc-number">4.</span> <span class="toc-text">神功大成</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注意事项：填写内容前记得在前面多敲一个空格’-‘，如type-git！不然会出现意想不到的结果。"><span class="toc-number">5.</span> <span class="toc-text">注意事项：填写内容前记得在前面多敲一个空格’ ‘，如type: git！不然会出现意想不到的结果。</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#结束语"><span class="toc-number"></span> <span class="toc-text">结束语</span></a>
 		
 		</div>
 		
@@ -142,11 +146,14 @@
 </li>
 <li><p><strong>修改配置文件</strong><br>在myblog下，可以很明显的看到配置文件_config.yml，使用你喜欢的任意文本编辑器打开并编辑它。_config.yml里的最后一段就是需要我们修改的内容，在这之前准备工作要做好，打开你的github，进入你新建的仓库，右面有个绿色的小按钮写着clone看到了没，点它，没错接下来会弹出一个小框，里面有你仓库的链接地址，复制它，一会需要用到。<br>回到刚才的文件中，找到这段代码。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">### Deployment</div><div class="line">## Docs: https://hexo.io/docs/deployment.html</div><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repository: git@github.com:GotoLu/gotolu.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
-<p>当然这是我修改后的,你需要在type后面敲入git，repository后面敲入你在github中创建仓库的地址，也就是前面复制的内容派上用场了，branch分支填写master即可。<br>保存完成后，运行</p>
+<p>当然这是我修改后的,你需要在type后面敲入git，repository后面敲入你在github中创建仓库的地址，也就是前面复制的内容派上用场了，branch分支填写master即可。</p>
+<h3 id="注意事项：填写内容前记得在前面多敲一个空格’-‘，如type-git！不然会出现意想不到的结果。"><a href="#注意事项：填写内容前记得在前面多敲一个空格’-‘，如type-git！不然会出现意想不到的结果。" class="headerlink" title="注意事项：填写内容前记得在前面多敲一个空格’ ‘，如type: git！不然会出现意想不到的结果。"></a><strong>注意事项：填写内容前记得在前面多敲一个空格’ ‘，如type: git！不然会出现意想不到的结果。</strong></h3><p>保存完成后，运行</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">// 清楚静态页面</div><div class="line">1. hexo clean</div><div class="line">// 生成静态页面</div><div class="line">2. hexo generate</div><div class="line">// 部署到Github</div><div class="line">3. hexo deploy</div></pre></td></tr></table></figure>
-<p>至此，博客的搭建已经完成了，你只需要在浏览器中输入<a href="http://你的用户名.github.io" target="_blank" rel="external">http://你的用户名.github.io</a>就可以看到自己的，如我搭建的地址<a href="http://gotolu.github.io" target="_blank" rel="external">http://gotolu.github.io</a>，我的博客搭建出来了，你们的呢？让我们一起练就绝世神功吧！</p>
+<p>至此，博客的搭建已经完成了，你只需要在浏览器中输入<a href="http://你的用户名.github.io" target="_blank" rel="external">http://你的用户名.github.io</a>就可以看到自己的，如我搭建的地址<a href="http://gotolu.github.io" target="_blank" rel="external">http://gotolu.github.io</a>，我的博客搭建出来了，你们的呢？让我们一起练就绝世神功吧！<br><strong>提供一些小技巧</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git c == git clean</div><div class="line">git g == git generate</div><div class="line">git s == git server</div><div class="line">git d == git deploy</div></pre></td></tr></table></figure>
 </li>
 </ol>
+<p>上述命令经常会使用到，提供一点技巧，为我们节省一些时间！</p>
 <h1 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a><strong>结束语</strong></h1><p>虽然我按照流程进行一步一步的介绍，但因各种其它因素造成搭建过程出现问题也是在所难免的。有问题可以一起讨论解决。<br>博客搭建出来了是不是很激动啊，这个哈？我不知道，反正我写出我的第一篇博客相当激动。第一次写作轻喷哦~</p>
 <hr>
 <p><strong>在此感谢jacman提供的漂亮主题！</strong></p>
@@ -204,6 +211,19 @@
    	       
 	</article>
 	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2016/11/30/如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）/" title="如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）">
+  <strong>上一篇：</strong><br/>
+  <span>
+  如何在github平台下使用hexo搭建博客进阶（自己选的主题，跪着也要整好了）</span>
+</a>
+</div>
+
+
+</nav>
+
 	
 <section id="comments" class="comment">
 	<div class="ds-thread" data-thread-key="2016/11/29/如何在github平台下使用hexo搭建博客/" data-title="如何在github平台下使用hexo搭建博客" data-url="http://yoursite.com/2016/11/29/如何在github平台下使用hexo搭建博客/"></div>
@@ -216,7 +236,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#写在开头"><span class="toc-number">1.</span> <span class="toc-text">写在开头</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#赤脚闯天下"><span class="toc-number">2.</span> <span class="toc-text">赤脚闯天下</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#略有所得"><span class="toc-number">3.</span> <span class="toc-text">略有所得</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#神功大成"><span class="toc-number">4.</span> <span class="toc-text">神功大成</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#结束语"><span class="toc-number"></span> <span class="toc-text">结束语</span></a>
+ <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#写在开头"><span class="toc-number">1.</span> <span class="toc-text">写在开头</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#赤脚闯天下"><span class="toc-number">2.</span> <span class="toc-text">赤脚闯天下</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#略有所得"><span class="toc-number">3.</span> <span class="toc-text">略有所得</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#神功大成"><span class="toc-number">4.</span> <span class="toc-text">神功大成</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注意事项：填写内容前记得在前面多敲一个空格’-‘，如type-git！不然会出现意想不到的结果。"><span class="toc-number">5.</span> <span class="toc-text">注意事项：填写内容前记得在前面多敲一个空格’ ‘，如type: git！不然会出现意想不到的结果。</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#结束语"><span class="toc-number"></span> <span class="toc-text">结束语</span></a>
  
   </div>
 
@@ -242,7 +262,7 @@
 		<ul class="clearfix">
 		
 			
-				<li><a href="/tags/github-hexo/" title="github hexo">github hexo<sup>1</sup></a></li>
+				<li><a href="/tags/github-hexo/" title="github hexo">github hexo<sup>2</sup></a></li>
 			
 		
 		</ul>
@@ -286,6 +306,11 @@
     </div>
     <footer><div id="footer" >
 	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
 	
 	<section class="info">
 		<p> Hello ,I&#39;m goto8lu Page in Google. <br/>
@@ -322,6 +347,8 @@
 		
 		
 		</p>
+		<script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=623906378680316185' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();
+		</script>
 </div>
 </footer>
     <script src="/js/jquery-2.0.3.min.js"></script>
