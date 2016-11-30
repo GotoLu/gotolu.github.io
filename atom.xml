@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-30T01:22:26.329Z</updated>
+  <updated>2016-11-30T01:40:43.383Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/11/29/%E5%A6%82%E4%BD%95%E5%9C%A8github%E5%B9%B3%E5%8F%B0%E4%B8%8B%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2016/11/29/如何在github平台下使用hexo搭建博客/</id>
     <published>2016-11-29T05:26:51.000Z</published>
-    <updated>2016-11-30T01:22:26.329Z</updated>
+    <updated>2016-11-30T01:40:43.383Z</updated>
     
     <content type="html"><![CDATA[<p>&lt; 版权声明：本文为GotoLu原创文章，可以随意转载，但必须在明确位置注明文章出处<a href="https://gotolu.github.io" target="_blank" rel="external">https://gotolu.github.io</a>！！！<br><img src="https://github.com/GotoLu/image/blob/master/pic01.jpg?raw=true" alt="心境"></p>
 <h3 id="写在开头"><a href="#写在开头" class="headerlink" title="写在开头"></a><strong>写在开头</strong></h3><p>第一次开通博客，看过<a href="http://stormzhang.com/" target="_blank" rel="external">stormzhang</a>大哥的文章，激起了我想自己写个博客的念头，遂查阅相关资料，总结于此，当学习笔记，也当一个纪念。感乎其不易，写下这篇如何在github平台下使用hexo搭建博客。</p>
@@ -32,7 +32,7 @@
 </li>
 <li><p><strong>拥有一个Github账号</strong><br>申请Github账号，并创建库，为搭建博客的存储所用。库名设置为”github账号.github.com”</p>
 </li>
-<li><p><strong>安装hexo</strong><br>在git中使用命令行npm install -g hexo，<br>正常的npm下载太慢（等了半天一直再转个不停），期间翻阅各种网站小道信息，发现使用淘宝的镜像下载的速度更快。具体npm config如下配置：<br><code>npm config set registry &quot;[https://registry.npm.taobao.org](https://registry.npm.taobao.org)&quot;</code><br>换镜像后的速度杠杠滴，亲测速度真的很快很快，反正比初始速度快很多就是啦。</p>
+<li><p><strong>安装hexo</strong><br>在git中使用命令行npm install -g hexo，<br>正常的npm下载太慢（等了半天一直再转个不停），期间翻阅各种网站小道信息，发现使用淘宝的镜像下载的速度更快。具体npm config如下配置：<br><code>npm config set registry &quot;https://registry.npm.taobao.org&quot;</code><br>换镜像后的速度杠杠滴，亲测速度真的很快很快，反正比初始速度快很多就是啦。</p>
 </li>
 </ol>
 <p><strong>内功修炼初始，拥有了各种神功秘笈的我们，可以开启下一环节啦</strong></p>
